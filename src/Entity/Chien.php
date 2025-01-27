@@ -22,7 +22,7 @@ class Chien
     #[ORM\Column(length: 255)]
     private ?string $race = null;
 
-    #[ORM\ManyToOne(inversedBy: 'chiens')]
+    #[ORM\ManyToOne(inversedBy: 'chiens', cascade:["persist"])]
     #[ORM\JoinColumn(nullable: false)]
     private ?Personne $proprio = null;
 

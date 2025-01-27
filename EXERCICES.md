@@ -14,9 +14,9 @@ Avoir une liste de personnes avec leurs informations de bases, une liste de bati
 
 Listes des points attendu:
 - [x] Créer au moins une entité avec les commandes
-- [ ] Créer le fichier de migration avec la commande symfony
-- [ ] Créer au moins un controller avec sa vue twig
-- [ ] Créer une commande qui ajoute des données en BDD
+- [x] Créer le fichier de migration avec la commande symfony
+- [x] Créer au moins un controller avec sa vue twig
+- [x] Créer une commande qui ajoute des données en BDD
 - [ ] script bash qui execute tout les test
 
 Listes des points bonus
