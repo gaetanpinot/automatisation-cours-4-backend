@@ -1,5 +1,5 @@
 #!/bin/sh 
-set -eo pipefail 
+set -e pipefail 
 composer phpstan 
 composer phpcs
 composer test
