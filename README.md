@@ -1,12 +1,12 @@
 # Projet Vide
 
-Bienvenu dans ce projets vide !   
+Bienvenu dans ce projet vide !   
 
-C'est un projets Symfony 7 vide.  
+C'est un projet Symfony 7 vide.  
 La documentation de [symfony, c'est ici !](https://symfony.com/doc/current/index.html)
 
 ## Note
-Pour ce projets, je vous laisse le choix de le faire marcher avec docker ou non.  
+Pour ce projet, je vous laisse le choix de le faire marcher avec docker ou non.  
 Certain on des problème de performance/lenteur avec docker, vous pourrez utiliser votre composer/php local en gardant bien en tête que ce n'est pas une bonne pratique.
 
 Sur la configuration docker ; vous verez une ligne "user" pour le service php. Elle sert a préciser quel user écrira sur la machine hote, par defaut l'identifiant du user et du groupe est 1000.  
@@ -24,7 +24,7 @@ Il faut respecter une de ces deux conditions:
 Il suffi d'installer les depandance via composer
 
 ```bash
-docker composer run --rm php composer install
+docker compose run --rm php composer install
 ```
 
 ou sans docker
