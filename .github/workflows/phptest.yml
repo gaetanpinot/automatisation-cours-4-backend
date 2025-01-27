@@ -1,0 +1,27 @@
+name: test
+on:
+  push:
+    branches:
+      - main
+permissions:
+  checks: write
+  contents: write
+jobs:
+  run-linters:
+    name: Run linters
+    runs-on: ubuntu-latest
+	# Decrit les étapes de l'action
+    steps:
+		# Met en place le repository git sur la machine du runner
+      - name: Check out Git repository
+        uses: actions/checkout@v3
+		# Met php sur la machine du runner
+      - name: Set up PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: "8.3"
+          coverage: none
+          tools: phpcs, phpunit, phpstan
+		# Run le linter php_codesniffer
+      - name: Run linters
+        run: ./test.sh
