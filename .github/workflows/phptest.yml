@@ -19,5 +19,7 @@ jobs:
           php-version: "8.3"
           coverage: none
           tools: phpcs, phpunit, phpstan
+      - name: install
+        run: composer install --no-progress --prefer-dist --optimize-autoloader
       - name: Run linters
         run: ./test.sh
