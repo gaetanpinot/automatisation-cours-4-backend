@@ -17,10 +17,10 @@ Listes des points attendu:
 - [x] Créer le fichier de migration avec la commande symfony
 - [x] Créer au moins un controller avec sa vue twig
 - [x] Créer une commande qui ajoute des données en BDD
-- [ ] script bash qui execute tout les test
+- [x] script bash qui execute tout les test
 
 Listes des points bonus
-- [ ] La commande d'ajout de données utilise FakerPHP
+- [x] La commande d'ajout de données utilise FakerPHP
 - [ ] Ajouter des test unitaire
 - [ ] un dossier Githook, avec un precommit et prepush qui execute tout les tests
 
